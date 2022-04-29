@@ -14,7 +14,7 @@ constraint_management:
   # and the current gains are not in the allowed list (next paragraphs)
   fallback_constraints:
     RTK: "slow"
-    GPS: "slow"
+    GPS: "medium"
 
 slow:
 

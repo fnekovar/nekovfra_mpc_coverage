@@ -8,7 +8,7 @@ takeoff:
     controller: "Se3Controller"
     tracker: "MpcTracker"
 
-  takeoff_height: 2.5
+  takeoff_height: 3.0
 
 # periodically checks if min height was exceeded
 # if so, retakes control and descends below it
@@ -24,4 +24,4 @@ landing:
   # if the UAV higher than this:
   # it will first descend to this height
   # and then land slowly and safely
-  descend_height: 2.5 # [m]
+  descend_height: 1.5 # [m]
