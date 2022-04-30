@@ -21,8 +21,8 @@ network:
 
   robot_names: [
 
-    uav1, uav2,
-    nekovfra,
-    uav98,
+    uav1,
+    uav2,
+    klaxalk,
 
   ]
