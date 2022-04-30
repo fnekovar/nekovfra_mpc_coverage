@@ -1,13 +1,13 @@
 name: simulation
 root: ./
 startup_window: status
-pre_window: export ROS_MASTER_URI=http://localhost:11311; export ROS_IP=192.168.69.44
+pre_window: export UAV_NAME=uav98
 windows:
   - roscore:
       layout: tiled
       panes:
         - roscore
-  - roscore:
+  - nimbro:
       layout: tiled
       panes:
         - waitForRos; rosrun mrs_uav_general run_nimbro.py custom_configs/nimbro.yaml custom_configs/uav_names.yaml
